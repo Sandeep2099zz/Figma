@@ -1,0 +1,922 @@
+
+<!-------------- Four boxes RWD---------->
+
+a{
+text-transform: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  <!-------------- Four boxes RWD---------->
+
+  *
+  {
+    font-family: verdana;
+  }
+  #bluecolor
+  {
+    background-color: blue;
+  }
+
+  .imagesLogo
+{
+    width:30px;
+    height:30px;
+}
+
+.bluebackground 
+{
+    width:100%;
+    height: 280px;
+    background-color: blue;
+    font-size: 16px;
+}
+
+.newsletter
+{
+    width:80%;
+    height:350px;
+border : 1px solid black;
+box-shadow: 2px 2px;
+margin-left: 100px;
+}
+
+
+<!-------------- Two boxes RWD---------->
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnTwo {
+    float: left;
+    width: 40%;
+    padding: 2px;
+    /* border: 2px solid black; */
+  }
+  
+  /* Clear floats after the columns */
+  .rowTwo:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .columnTwo {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnTwo {
+      width: 100%;
+    }
+  }
+
+  <!-------------- Two boxes RWD ends ---------->
+
+
+  .container{
+    height :300px;
+    width:300px;
+    background-color:aqua
+    
+    }
+    
+    button {
+
+      border-radius: 10px;
+      padding-top:10px;
+      padding-bottom: 10px;
+    }
+
+    <--------- Form begins ---------->
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column1 {
+      float: left;
+      width: 55%;
+      padding: 10px;
+      height: 500px; /* Should be removed. Only for demonstration */
+    }
+    
+    .column2 {
+      float: left;
+      width: 30%;
+      padding: 10px;
+      height: 500px; /* Should be removed. Only for demonstration */
+    }
+    
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    
+
+    .textwidth
+    {
+      width:60%;
+      height:40px;
+      border-radius: 10px;
+    }
+
+
+    /* interview  */
+    
+    .interview{
+width: 500px;
+height: 400px;
+border:2px solid lightgray;
+font-family: verdana;
+font-size: 14px;
+padding-left:30px;
+margin-left: 245px;
+
+    }
+
+    .secondcard {
+      width:200px;
+      height:150px;
+      border: 2px solid black;
+    }
+
+
+    /* blogs begin */
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .columnBlog1 {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height:500px; /* Should be removed. Only for demonstration */
+    }
+    .columnBlog2 {
+      float: left;
+      width: 25%;
+      padding: 30px;
+      height: 1000px; /* Should be removed. Only for demonstration */
+    }
+       
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+
+    /* blogs end */
+
+    /* students say  */
+
+    .boxquote{
+width:420px;
+height: 260px;
+border: 4px solid blue;
+border-radius: 10px;
+padding-left: 10px;
+
+    }
+
+    .checked {
+      color: orange;
+    }
+
+
+    /* top companies logo */
+
+    .logo{
+      width: 100px;
+      height: 80px;
+      margin-left:80px;
+    }
+
+
+    .course
+    {
+      height:350px;
+      width:350px;
+      border:2px solid white; 
+      font-size: 12px;
+    }
+
+
+    /* TopNav */
+
+    body {
+      margin: 0;
+      font-family: verdana;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      border:1px solid blue;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+
+    /* Top Nav ends */
+
+
+    /* Icons in textbar */
+    * {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Icons in textbar ends */
+
+
+/* display flex */
+
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: 260px;
+}
+
+/* display flex ends  */
+
+/* flex-container 50-50 */
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  /* text-align: center; */
+  /* padding:30px; */
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+  flex: 50%;
+}
+
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+/* flex ends  */
+
+
+.syntaxLogo
+{
+  width:340px;
+  height: 60px;
+  padding-left:100px;
+}
+
+.syntaxButton
+{
+  background-color: blue;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.title
+{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.learnMore
+{
+  background-color:blue;
+  color:white;
+  padding-left:35px;
+  padding-right: 35px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 10px;
+}
+
+.graduation
+{
+  width:40px;
+  height:40px;
+  float:right;
+}
+
+.htmltagimage
+{
+  width:40px;height:40px
+}
+
+.bulbimage
+{
+  width:80px;height:80px;float: right;
+}
+
+.meetingimage
+{
+  float:right;width:500px;height:500px;border-radius: 50%;margin-right: 100px;
+}
+
+.popularcategory
+{
+  text-align: center;margin-top: 600px;
+}
+
+.rowtwoclass
+{
+  display: inline-flex;
+  justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  gap:120px;
+}
+
+.categoryImage
+{
+  width:100px;height: 150px;
+}
+
+.categoryButton
+{
+  background-color: blue;
+  color:white;
+  margin-left:560px;
+  padding-left:60px;
+  padding-right: 60px;
+  align-items: center;
+}
+
+
+.popularcoursesDiv
+{
+  display: inline-flex;
+  justify-content: space-evenly;
+  display: flex;
+justify-content: center;
+gap:50px; 
+margin-left: 20px;
+}
+
+.coursecard1
+{
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px lightgray;
+}
+
+.uiimage
+{
+  width: 100%;
+  height: 150px;
+}
+
+.uitext
+{
+  font-family: verdana;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.uireadmore
+{
+  float: right;
+  text-decoration: none;
+}
+
+.coursecard2
+{
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px lightgray;
+}
+
+.coursecardimg
+{
+  width: 100%;height: 150px;
+}
+
+.coursecard2text
+{
+  font-family: verdana;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.coursecardreadmore
+{
+  float: right;
+  text-decoration: none;
+}
+
+
+.coursecardButton
+{
+  background-color: blue;
+  color:white;
+  margin-left:560px; 
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.studentsrowTwo
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  height: 100px;
+}
+
+.rightquoteimg
+{
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+.jeetboxquote
+{
+  padding: 10px;font-size: 14px;
+}
+
+.jeetimg
+{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.jeetTitle
+{
+  float: center;
+  margin-top:-100px;
+  margin-left:160px;
+}
+
+.jeetPosition
+{
+  margin-top:-40px;margin-left:160px;
+}
+
+.jeetleftquote
+{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top:-10px;
+}
+
+.rohitleftquote
+{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top:-11px;
+}
+
+.rohitTitle
+{
+  margin-left:160px;
+  margin-top:-90px;
+}
+
+.rohitPosition
+{
+  margin-left:160px;
+  margin-top:-50px;
+}
+
+.interviewimg
+{
+  height:200px;width: 100%;
+}
+
+.designThinking
+{
+  width:490px;
+  border: 2px solid lightgray;
+  margin-top: -10px;
+  color:black;
+}
+
+.designThinkingTitle{
+  color:black;
+  padding-left: 20px;
+}
+
+.divDevelopment
+{
+  width:490px;
+  border: 1px solid lightgray;
+  margin-top: -300px; 
+  /* padding: 10px; */
+  padding-bottom: -50px;
+}
+
+.viewAllButton
+{
+  margin-left:50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: blue;
+  color:white;
+}
+
+.smallSquareDiv
+{
+  display: inline-flex; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fortenthousand
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black; 
+  margin-left:150px;
+  background-color: pink;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tencourses{
+  height: 100px;
+  width: 100px;
+  border:1px solid black; 
+  margin-left:150px;
+  background-color: aqua;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.instructor
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  margin-left:150px;
+  background-color: violet;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.stories
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  margin-left:150px;
+  background-color: peachpuff;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.formbutton
+{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  margin-left:40px;
+}
+
+
+.newsletterdiv
+{
+  border:1px solid blue;
+  box-shadow: 3px 3px blue;
+}
+
+.letterimg
+{
+  width: 400px;height:345px;
+}
+
+.subscribe
+{
+  border-radius: 5px;
+  width: 400px;
+  padding-left: 50px;
+  margin-left:auto;
+}
+
+
+.buttonDiv
+{
+  align-items: center;
+  margin-left: 120px;
+}
+
+.buttoninput
+{
+  background-color: blue;
+  color:white;
+  padding:9px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 10px;
+}
+
+.footercolumn
+{
+  background-color:blue;
+  padding-left:30px;
+}
+
+.footerLinks
+{
+  color:white;font-size: 17px;
+}
+
+.topicfooter
+{
+  color:aqua; font-size: 20px;
+}
+
+.textblue
+{
+  color:blue;
+}
+
+#textcolorblue
+{
+color:blue;
+}
+
+.verdanaFont
+{
+  font-family: verdana;
+}
+
+
+.centeralign
+{
+  text-align: center;
+}
+
+.paddingten
+{
+  padding-left: 10px;
+}
+
+.padding250
+{
+  margin-left: 250px;
+}
+
+.padding200
+{
+  margin-left: 200px;
+}
+
+.height80
+{
+  height: 80px;
+}
+
+.marginleft130
+{
+  margin-left: 130px;
+}
+
+.bgcolorbrown 
+{
+  background-color: brown;
+  padding:10px;
+}
+
+.textdeconone
+{
+  text-decoration: none;
+}
+
+.padding300
+{
+  padding-left: 300px;
+}
+
+.bgcolorviolet
+{
+  background-color: blueviolet;
+}
+
+
+.floatleft
+{
+  float:left;
+}
+
+.paddingtop5
+{
+  padding-top:-5px;
+}
+
+.paddingleft275
+{
+  padding-left: 275px;
+}
+
+.bgcoloraqua
+{
+  background-color: aqua;
+}
+
+.marginleft150
+{
+  margin-left: 150px;
+}
+
+.paddingleft10second
+{
+  padding-left: 130px;
+  margin-top:-10px;
+}
+
+.paddingleft10first
+{
+  padding-left: 150px;
+  margin-top:-90px;
+
+}
+
+.marginleft190
+{
+  margin-left: 190px;
+}
+
+.fontsize16
+{
+  font-size: 16px;
+}
+
+.maxwidth500
+{
+  max-width:500px;margin:auto;
+}
+
+.colorWhite
+{
+  color: white;
+}
+
+.bgcolorblue
+{
+  background-color:blue;
+}
+
+.coloraqua 
+{
+  color:aqua;
+}
+
+.white16
+{
+  color: white;font-size: 16px;
+}
+
+.fontsize24
+{
+  font-size:24px;
+}
+
+.bldg
+{
+  width:30px;height:30px;
+}
